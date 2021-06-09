@@ -1,0 +1,5 @@
+package com.example.api.users.controller;
+
+public class UserController {
+
+}

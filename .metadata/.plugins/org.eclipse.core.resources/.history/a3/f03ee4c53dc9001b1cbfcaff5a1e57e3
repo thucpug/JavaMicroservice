@@ -1,0 +1,8 @@
+eureka:
+    fetch-registry: false
+    register-with-eureka: false
+server:
+  port: 8000
+spring:
+  application:
+    name: discoveryservice
