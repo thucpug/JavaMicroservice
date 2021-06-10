@@ -1,13 +1,33 @@
 server:
-  port: 0
+  port: 1092
 spring:
   devtools:
     restart:
       enabled: true
   application:
     name: UserService
- 
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: sa
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
+
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:8000/eureka
+    fetch-registry: false
+    register-with-eureka: false
+  instance:
+    instance-id: ${spring.application.name}:${random.value}
+gateway:
+  ip: 127.0.0.1

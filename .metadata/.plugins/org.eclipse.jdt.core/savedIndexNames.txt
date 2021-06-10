@@ -1,19 +1,5 @@
-INDEX VERSION 1.131+D:\BE\Java\microservice\MyLearn\MicroservicePhoto\.metadata\.plugins\org.eclipse.jdt.core
-1106897104.index
-3606077741.index
-3524468303.index
-368347320.index
-3791201924.index
-1644760173.index
-2524737023.index
-2518813288.index
-309546924.index
-220047557.index
-2294531639.index
-4120620950.index
-2371997492.index
-686091016.index
+INDEX VERSION 1.131+D:\BE\JAVA\JavaMicroservice\.metadata\.plugins\org.eclipse.jdt.core
 2367966089.index
-314052276.index
-2105842204.index
-3573856458.index
+220047557.index
+2524737023.index
+3524468303.index
