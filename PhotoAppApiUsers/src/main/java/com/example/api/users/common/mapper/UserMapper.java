@@ -1,6 +1,6 @@
 package com.example.api.users.common.mapper;
 
-import com.example.api.users.model.dto.UserDto;
+import com.example.api.users.model.dto.out.UserDto;
 import com.example.api.users.model.entity.UserEntity;
 import org.mapstruct.Mapper;
 

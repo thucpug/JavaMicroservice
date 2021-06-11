@@ -25,9 +25,16 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8000/eureka
-    fetch-registry: false
-    register-with-eureka: false
+    fetch-registry: true
+    register-with-eureka: true
   instance:
     instance-id: ${spring.application.name}:${random.value}
 gateway:
   ip: 127.0.0.1
+jwt:
+  token:
+    expiration: 86400000 #10day
+    secret: thucpug
+login:
+  url:
+    path: /users/login

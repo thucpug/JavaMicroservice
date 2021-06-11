@@ -1,4 +1,4 @@
-package com.example.api.users.model.dto;
+package com.example.api.users.model.dto.out;
 
 import java.io.Serializable;
 

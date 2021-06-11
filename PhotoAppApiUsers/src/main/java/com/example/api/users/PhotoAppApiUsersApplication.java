@@ -10,6 +10,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 public class PhotoAppApiUsersApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(PhotoAppApiUsersApplication.class, args);
 	}
 

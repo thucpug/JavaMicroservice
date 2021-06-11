@@ -1,11 +1,11 @@
-package com.example.api.users.model;
+package com.example.api.users.model.dto.in;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.io.Serializable;
 
-public class UserModelRequest implements Serializable {
+public class UserSignInDtoIn implements Serializable {
     @NotNull(message = "Firstname must not be null")
     @Size(min = 2,message = "FirstName must not be less than two characters")
     private String firstName;
