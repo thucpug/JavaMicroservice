@@ -28,7 +28,8 @@ public class UserController {
 
     @GetMapping(path = "/user")
     public String get() {
-        return "user  Thuc is working D!" + environment.getProperty("local.server.port");
+        return "user  Thuc is working: " + environment.getProperty("local.server.port") + " and with token secret: "
+                +environment.getProperty("jwt.token.secret") ;
     }
 
     @PostMapping(path = "/create")
